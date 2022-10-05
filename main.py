@@ -66,7 +66,15 @@ if __name__ == "__main__":
     projeto.inserirPaginaDeLogin("Cabo Daciolo","gloriadeus")
 
     #Editando dados da tabela
-    projeto.editarPaginaDeLogin()
+    projeto.editarPaginaDeLogin("Guilherme Barcelos","gui1346345",1)
+    projeto.editarPaginaDeLogin("Valerio Putin","uk123528",6)
 
+    #Deletando dados da Tabela
+    projeto.excluirPaginaDeCadastro(8)
+    projeto.excluirPaginaDeUsuario(2)
 
+    #Listando tabela
     projeto.listarPaginaDeCadastro()
+
+    #Fechando a configuração de tabelas
+    projeto.fechar()
